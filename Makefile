@@ -1,5 +1,5 @@
 .POSIX:
-CXX = c++
+include config.mk
 
 BIN = sample
 OBJ = main.o
