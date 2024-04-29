@@ -7,7 +7,7 @@ OBJ = main.o
 all: $(BIN)
 
 $(BIN): $(OBJ)
-	$(CXX) $(LDFLAGS) -o $@ $(OBJ)
+	$(CXX) $(LDFLAGS) -o $@ $(OBJ) $(LDLIBS)
 
 clean:
 	rm -f $(BIN) *.o
